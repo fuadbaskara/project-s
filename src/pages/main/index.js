@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import { Card } from "antd"
 import './App.css';
 
 function Main() {

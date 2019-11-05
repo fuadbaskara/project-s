@@ -43,7 +43,6 @@ const Main = ({ children, title, location }) => {
             selectedKeys={[getActiveNavLink()]}
           >
             <Menu.Item key={MENU.TASK_REVIEW_LIST_KEY}><NavLink to={MENU.MAIN_PAGE}>Main page</NavLink></Menu.Item>
-            {/* <Menu.Item key={MENU.FREELANCER_LIST_KEY}><NavLink to={MENU.FREELANCER_LIST}>Freelancer Management</NavLink></Menu.Item> */}
             <Menu.Item key="4" onClick={logout}>Logout</Menu.Item>
           </Menu>
         </Drawer>
