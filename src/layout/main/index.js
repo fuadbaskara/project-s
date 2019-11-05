@@ -42,9 +42,7 @@ const Main = ({ children, title, location }) => {
             defaultSelectedKeys={['/']}
             selectedKeys={[getActiveNavLink()]}
           >
-            <Menu.Item key={MENU.TASK_REVIEW_LIST_KEY}><NavLink to={MENU.TASK_REVIEW_LIST}>Task Review</NavLink></Menu.Item>
-            <Menu.Item key={MENU.CONTRACT_LIST_KEY}><NavLink to={MENU.CONTRACT_LIST}>Contracts</NavLink></Menu.Item>
-            <Menu.Item key={MENU.MASTER_FIELD_KEY}><NavLink to={MENU.MASTER_FIELD}>Master Field</NavLink></Menu.Item>
+            <Menu.Item key={MENU.TASK_REVIEW_LIST_KEY}><NavLink to={MENU.MAIN_PAGE}>Main page</NavLink></Menu.Item>
             {/* <Menu.Item key={MENU.FREELANCER_LIST_KEY}><NavLink to={MENU.FREELANCER_LIST}>Freelancer Management</NavLink></Menu.Item> */}
             <Menu.Item key="4" onClick={logout}>Logout</Menu.Item>
           </Menu>
