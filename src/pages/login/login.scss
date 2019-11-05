@@ -1,0 +1,48 @@
+@import '../../styles/modules/global';
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: $background-color;
+}
+
+.login__inner {
+  max-width: 420px;
+  width: 90%;
+  background-color: #fff;
+  margin: auto;
+  padding: 30px 40px;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 8px;
+  text-align: center;
+  h2 {
+    margin: 0.5em 0;
+  }
+  p {
+    margin: 0;
+  }
+  button[type="submit"] {
+    width: 100%;
+  }
+  img {
+    margin-bottom: 1em;
+    height: 40px;
+    width: auto;
+  }
+}
+
+.login__form {
+  margin-top: 2em;
+}
+
+.app-version {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 1em;
+  font-size: 1.2rem;
+}

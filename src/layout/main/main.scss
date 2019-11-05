@@ -1,0 +1,56 @@
+@import '../../styles/modules/global';
+
+.main {
+  min-height: 100vh;
+  .ant-layout-header {
+    height: 50px;
+    line-height: 50px;
+  }
+}
+
+.main__header {
+  background: #fff;
+  padding: 0 16px;
+  display: flex;
+  justify-content: center;
+  svg, i {
+    font-size: 1.8rem;
+  }
+  img {
+    margin-left: 1em;
+    height: 26px;
+    width: auto;
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+  .main-hedaer__logo {
+    position: absolute;
+    top: 0;
+    left: 16px;
+  }
+}
+
+.main__drawer-avatar {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: $font-color;
+  line-height: 1.5;
+  font-size: 1.4rem;
+  p {
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 120px;
+  }
+  .ant-avatar {
+    margin-right: 0.5em;
+  }
+}
+
+.main__drawer-avatar-acc {
+  font-weight: bold;
+}
